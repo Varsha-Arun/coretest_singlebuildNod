@@ -5,6 +5,9 @@ language: node_js
 node_js:
   - 10.15.3  
 
+git:
+   submodules: false
+  
 build:
   ci:
    
