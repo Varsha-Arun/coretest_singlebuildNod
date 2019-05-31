@@ -19,8 +19,8 @@ build:
    
   post_ci:
   # Testing docker build and push
-    - docker build -t=bindu166:c7node .
-    - docker push bindu166:c7node
+    - docker build -t=shippabledocker/c7node:latest .
+    - docker push shippabledocker/c7node:latest
 
 integrations:
   hub:
